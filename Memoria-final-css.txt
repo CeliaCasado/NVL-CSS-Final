@@ -1,0 +1,13 @@
+Lo primero de todo ha sido crear el documento HTML base, en el cual he comenzado a estucturar las diferectes secciones y conjuntos que quiero crear.
+Primero he creado un header con logo y un menú de navegación y he definido los estilos de todo este bloque para que queden ordenados visualmente.
+En segundo lugar definí el footer
+Después un gran div que englobe el contenido dividido en columnas, para ello le he otorgado una clase a la que aplico la propiedad de multicolumn-layout, en el css indico que esta clase hará que el contenido quede dividido en tres columnas.
+Para seguir con una estructura ordenada he decidido crear como elementos hijos del div tres secciones, correspondientes a cada una de las columnas, con una clase común y un id único para cada una.
+Después de hacer estos pasos me di cuenta de que no iba a poder seleccionar el contenido exacto que estaría en cada columna, por lo que he cambiado el multicolum layout por una tabla para definir el contenido que incluyo en cada una de ellas.
+Tampoco con este estilo conseguí el efecto que quise así que finalmente me decidí por destintos div a los que he dado características CSS para convertirlos en columnas.
+No veo el prototipo expuesto mencionado en el enunciado de cada práctica, por lo que voy a improvisar el estilo de los artículos.
+Para la diferenciación de tipografías he usado pseudo-elementos con la primera letra de cada texto etiquetado como h3.
+El margen de body es  para permitir que el header y el footer se extiendan en el 100% del ancho, pero luego mediante paddings he conseguido espaciar las columnas para que su contenido no colapsase.
+He querido incluir selectores de atributos con poco éxito incluso incluyendo un !important, no logro encontrar el error y agradecería mucho su corrección.
+Con los overflow hack empleados para la presentación de los artículos no he tenido ninguna complicación.
+He fijado mucho los contenidos y he visto mmis propias debilidades con el código para poder reforzarlas antes del comienzo del bootcamp.
